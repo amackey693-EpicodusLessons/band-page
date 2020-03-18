@@ -29,6 +29,7 @@ body {
   float: right;
   background-color: black;
   color: #AAA0b2;
+  margin: 6px;
 }
 
 h2 {
@@ -37,9 +38,10 @@ h2 {
 }
 
 img.band {
-  float:right;
+  float: right;
   width: 400px;
   height: 300px;
+  margin: 6px;
 }
 
 img.logo {
@@ -47,19 +49,44 @@ img.logo {
   height: auto;
 }
 
-@media screen and (max-width:780px) {
-
-  img.band {
-    width: 25%;
-  }
-
+@media screen and (max-width:1000px) and (min-width: 700px)  {
+  
   .column {
     width:25%;
     font-size:10px;
   }
   
   .sidebar {
-    width: 25%
-    font-size: 2vw;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
   }
+}
+
+@media screen and (max-width:460px) and (min-width: 300px)  {
+
+  img.band {
+    width:50%;
+    height:50%; 
+    float: center;
+  }
+
+  img.logo {  
+    width:150px;
+    height:200px%; 
+    float: left;
+
+  }
+
+  .column {
+    width:250px;
+    height: %;
+    font-size:10px;
+  } 
+  
+  .sidebar {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    }
 }
