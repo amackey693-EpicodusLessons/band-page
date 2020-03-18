@@ -1,0 +1,17 @@
+.sidebar {
+  width: 25%;
+  float: left;
+  background: #AAA0b2
+  color: black;
+}
+
+.column {
+  width: 400px;
+  float: right;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: #AAA0b2;
+}
