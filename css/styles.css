@@ -1,7 +1,13 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: #AAA0b2;
+}
+
 .sidebar {
-  width: 25%;
+  width: 300px;
   float: left;
-  background: #AAA0b2
+  background-color: #AAA0b2;
   color: black;
 }
 
@@ -10,8 +16,8 @@
   float: right;
 }
 
-body {
-  font-family: sans-serif;
-  background-color: black;
-  color: #AAA0b2;
+h2 {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
