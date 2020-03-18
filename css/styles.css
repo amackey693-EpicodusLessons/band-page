@@ -20,6 +20,10 @@ body {
   font-variant: small-caps;
 }
 
+.sidebar ul {
+  font-weight: bold;
+}
+
 .column {
   width: 400px;
   float: right;
@@ -32,8 +36,13 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
+img.band {
   float:right;
   width: 400px;
   height: 300px;
+}
+
+img.logo {
+  max-width: 400px;
+  height: auto;
 }
